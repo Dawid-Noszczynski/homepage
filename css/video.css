@@ -1,0 +1,12 @@
+.video {
+    margin: 50px 0px;
+    padding: 20px;
+}
+
+.video__ytVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 300px;
+}

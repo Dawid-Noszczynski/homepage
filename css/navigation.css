@@ -1,0 +1,32 @@
+.navigation {
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.navigation__listItem {
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+}
+
+.navigation__link {
+    color: #85C126;
+    text-decoration: none;
+}
+
+.navigation__link:focus {
+    outline: 1px solid #85C126;
+}
+
+.navigation__link:hover {
+    color: crimson;
+}
+
+.navigation__link:active {
+    color: rgb(136, 13, 37);
+}

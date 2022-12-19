@@ -1,0 +1,11 @@
+.header {
+    text-align: center;
+    margin: 50px 0px;
+    padding: 20px;
+}
+
+.header__header {
+    color: crimson;
+    font-family: "Audiowide", sans-serif;
+    font-size: 40px;
+}

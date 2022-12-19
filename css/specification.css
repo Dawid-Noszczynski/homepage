@@ -1,0 +1,55 @@
+.specification {
+    margin: 50px 0px;
+    padding: 20px;
+}
+
+.specification__sectionSize {
+    margin: 50px 0px;
+    padding: 20px;
+}
+
+.specification__headerThree {
+    color: rgb(128, 52, 52);
+    background-color: rgb(220, 213, 213);
+    font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.specification__mainText {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Roboto', ‚sans-serif;
+    line-height: 1.5;
+}
+
+.specification__mainText--important {
+    color: rgb(209, 6, 46);
+}
+
+.specification__mainText--importanttwo {
+    color: blue;
+}
+
+.specification__headerThree--tec {
+    text-decoration: underline;
+}
+
+.specification__mainText--howmay {
+    text-decoration: underline;
+}
+
+.spezification__listItem {
+    margin: 10px 0px;
+    font-family: 'Roboto', ‚sans-serif;
+    list-style-type: square;
+}
+
+.specification__hide {
+    display: none;
+}
