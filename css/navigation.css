@@ -1,11 +1,15 @@
 .navigation {
     margin: auto;
     margin-bottom: 50px;
-    padding: 10px;
     font-family: "Audiowide", sans-serif;
-    text-align: center;
-    border: 3px solid #000;
-    border-radius: 10px;
+}
+
+.navigation__direction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
 .navigation__listItem {
