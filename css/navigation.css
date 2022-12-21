@@ -2,6 +2,7 @@
     margin: auto;
     margin-bottom: 50px;
     font-family: "Audiowide", sans-serif;
+    text-align: center;
 }
 
 .navigation__direction{
@@ -9,7 +10,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: flex-start;
 }
 
 .navigation__listItem {
