@@ -3,27 +3,26 @@
         console.log("Hello");
     }
 
-    const updateButtonText = (specification) => {
-        const button = document.querySelector(".js-mainSection__button");
-
+    const updateButtonText = (specification, button) => {
         button.innerText = specification.classList.contains("specification__hide") ? "Pokaż specyfikację" : "Ukryj specyfikację";
     }
 
-    const hideSpecification = () => {
+    const toggleSpecificationVisibility = (button) => {
         const specification = document.querySelector(".js-specification");
 
         specification.classList.toggle("specification__hide");
 
-        updateButtonText(specification);
+        updateButtonText(specification, button);
     }
 
     const init = () => {
         const button = document.querySelector(".js-mainSection__button");
-        button.addEventListener("click", hideSpecification);
+        button.addEventListener("click", () => {
+            toggleSpecificationVisibility(button);
+        });
 
         welcome();
     };
 
     init();
 }
-
